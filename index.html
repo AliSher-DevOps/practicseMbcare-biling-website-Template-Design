@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>PracticeCare MBS</title>
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <a href="https://icons8.com/icon/11698/clipboard"></a>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <style>
+        
+    .myDIV:hover {
+      box-shadow: 0 0 11px rgba(33,33,33,.2); 
+      padding: 10px;
+    }
+    
+    </style>
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center fixed-top bg-white"  style="color: #33495E;">
+    <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
+      <div class="align-items-center d-none d-md-flex">
+      </div>
+      <div class="d-flex align-items-center">
+        <i class="bi bi-phone"></i> Call us now +1 (732) 704-6149
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top" style="background-color: #33495E;">
+    <div class="container d-flex align-items-center">
+
+      <a href="index.html" class="logo me-auto text-white">PracticeCare MBS</a>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
+
+      <nav id="navbar" class="navbar order-last order-lg-0" >
+        <ul>
+          <li><a class="nav-link scrollto text-white" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto text-white" href="about.html">About</a></li>
+          <li class="dropdown "><a href="mainservices.html"><span class="text-white">Services</span> <i class="bi bi-chevron-down text-white"></i></a>
+            <ul>
+              <li><a href="frontDeskManagement.html">Front Office Management</a></li>
+              <li><a href="Credentialing.html">Credentialing & Enrollment</a></li>
+              <li><a href="VerificationEligibility.html">Verification & Eligibility</a></li>
+              <li><a href="MedicalCoding.html">Medical Coding</a></li>
+              <li><a href="Accountreceivable.html">Account receivable</a></li>
+              <li><a href="medicalBiling.html">Medical Billing</a></li>
+              <li><a href="transcription.html">Transcription</a></li>
+              <li><a href="valueServices.html">Value Added Services</a></li>
+            </ul>
+          </li>
+          
+          <li><a class="nav-link scrollto text-white" href="pricing.html">Pricing</a></li>
+          <li><a class="nav-link scrollto text-white" href="contact.html">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+      
+
+        <!-- Slide 2 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/doctors/p1.jpg)">
+          <div class=" p-5 text-center">
+            <h1  style="margin-top: -200px;font-size: 90px;  color: #cccfd1;">Welcome to <span>PracticeCare MBS</span></h1>
+            <p class="text-white">Oh yes, you heard it Right.. <br>PracticeCare is offering free one month trail
+              (strat your trail)!</p>
+            <a href="pricing.html" class="btn-get-started scrollto" style="background-color: #33495E;">Get Free One Month Trail</a>
+           </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(assets/img/doctors/p2.jpg)">
+          <div class=" p-5 text-center"  >
+            <h1  style="margin-top: -200px; font-size: 90px; color: #cccfd1;">Choose<span> US</span></h1>
+            <p class="text-white" >Simplify your billing
+              Maximise your Revenue</p>
+            <a href="pricing.html" class="btn-get-started scrollto" style="background-color: #33495E;">Choose Us</a>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev" >
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true" style="background-color: #33495E;"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true" style="background-color: #33495E;"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2 style="color: #33495E;">Why You Should Choose Us</h2>
+          <p>PracticeCare is a medical billing company in Texas brings more than 12 years of experience with best practices and services to healthcare practitioners. PracticeCare makes your revenue cycle management more efficient, more profitable, and cost-effective. By outsourcing medical billing to PracticeCare, your practice can have the most efficient and accurate bill processing possible.
+<br>
+            Healthcare professionals and physicians Partner with PracticeCare and get the most simplified billing processes and transparent reporting, higher claims acceptance, faster reimbursements, and more revenue with no upfront costs and no long-term contracts. Our best medical billing and coding service in Texas help you to achieve the highest recovery on contractually due amounts from payers. Healthcare providers choose us due to our wide range of solutions, work ethics, professionalism, and the way we leverage cutting edge technology for their benefit.
+            
+          </p>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+
+   <!-- ======= Services Section ======= -->
+   <section id="services" class="services services">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2 style="color: #33495E;">Services</h2>
+        <p>    PracticeCare MBS offers you specialty-specific revenue cycle management services. Our all-inclusive medical billing and coding support is designed to assure you an overall increase in your collections and at the same time enhance your practice’s efficiency. Our teams of experienced Billers, Certified Professional Coders (CPC) and Certified Coding specialist (CCS) hold expertise in different specialties and work with sheer dedication to uplift the performance of provider’s revenue cycle.</p>
+      </div>
+      
+      <div class="row">
+        <div class="col-lg-4 col-md-6 icon-box myDIV" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon " style="background-color: #33495E;"><img src="https://img.icons8.com/ios-glyphs/50/ffffff/front-desk.png"/></div>
+          <h4 class="title "><a href="frontDeskManagement.html"> Front Desk Management</a></h4>
+          
+        </div>
+        <div class="col-lg-4 col-md-6 icon-box myDIV" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon " style="background-color: #33495E;"><img src="https://img.icons8.com/ios-glyphs/50/ffffff/id-verified.png"/></div>
+          <h4 class="title"><a href="Credentialing.html">Credentialing & Enrollment</a></h4>
+         </div>
+        <div class="col-lg-4 col-md-6 icon-box myDIV" data-aos="zoom-in" data-aos-delay="300">
+          <div class="icon " style="background-color: #33495E;"><img src="https://img.icons8.com/ios-glyphs/60/ffffff/trust--v1.png"/></div>
+          <h4 class="title"><a href="VerificationEligibility.html">Verification & Eligibility</a></h4>
+        </div>
+        <div class="col-lg-4 col-md-6 icon-box myDIV" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon  " style="background-color: #33495E;"><i class="fas fa-dna text-white"></i></div>
+          <h4 class="title"><a href="MedicalCoding.html">Medical Coding</a></h4>
+         </div>
+        <div class="col-lg-4 col-md-6 icon-box myDIV" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon " style="background-color: #33495E;"><img src="https://img.icons8.com/ios-glyphs/50/ffffff/medical-history.png"/></div>
+          <h4 class="title"><a href="medicalBiling.html">Medical Billing</a></h4>
+        </div>
+        <div class="col-lg-4 col-md-6 icon-box myDIV" data-aos="zoom-in" data-aos-delay="300">
+          <div class="icon " style="background-color: #33495E;"><img src="https://img.icons8.com/ios-glyphs/50/ffffff/order-shipped.png"/></div>
+          <h4 class="title"><a href="transcription.html">Transcription</a></h4>
+        </div>
+        <div class="col-lg-4 col-md-6 icon-box myDIV" data-aos="zoom-in" data-aos-delay="300">
+          <div class="icon " style="background-color: #33495E;"><img src="https://img.icons8.com/ios-glyphs/50/ffffff/card-in-use.png"/></div>
+          <h4 class="title"><a href="Accountreceivable.html">Account receivable</a></h4>
+        </div>
+        <div class="col-lg-4 col-md-6 icon-box myDIV" data-aos="zoom-in" data-aos-delay="300">
+          <div class="icon " style="background-color: #33495E;"><img src="https://img.icons8.com/ios-glyphs/50/ffffff/graph-report.png"/></div>
+          <h4 class="title"><a href="valueServices.html">Value Added Services</a></h4>
+         </div>
+      
+      </div>
+
+    </div>
+  </section><!-- End Services Section -->
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta" style="background-color: #33495E;">
+      <div class="container p-4" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h1>Explore  Pricing Plan</h1>
+          <p>D’s medical coding services, you can rest assured that there will be no errors in coding, </p>
+          <a class="cta-btn scrollto" href="pricing.html">View Pricing</a>
+          <a class="cta-btn scrollto" href="contact.html">Lets Talk </a>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    
+  <section id="services" class="services services">
+    <div class="container" data-aos="fade-up">
+  
+      <div class="section-title">
+        <h2 style="color: #33495E;">Benefits</h2>
+        <p>PracticeCare Medical Billing will do more than take the burden of these financial worries. Right Medical Billing improves so many aspects of our clients’ overall business operations. Just as you are the best at what you do, we are the best at what we do.
+
+          The benefits to retaining PracticeCare Medical Billing for your medical billing and coding service provider:
+        </p>   </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 icon-box " data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon " style="background-color: #33495E;"><img src="https://img.icons8.com/ios/50/ffffff/clipboard.png"/></div>
+          <h4 class="title "><a > More Focus
+            on Patient Care</a></h4>
+        </div>
+        <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon " style="background-color: #33495E;"><img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/50/ffffff/external-clipboard-advertising-kiranshastry-lineal-kiranshastry.png"/></div>
+          <h4 class="title"><a >
+            Reduced Administrative Duties</a></h4>
+        </div>
+        <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
+          <div class="icon " style="background-color: #33495E;"><img src="https://img.icons8.com/ios/50/ffffff/check-dollar.png"/></div>
+          <h4 class="title"><a >Enhanced
+            Cash Flow
+            </a></h4>
+        </div>
+        <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon  " style="background-color: #33495E;"><img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/50/ffffff/external-report-project-planing-flatart-icons-outline-flatarticons-1.png"/></div>
+          <h4 class="title"><a >
+            Reduced Billing Errors</a></h4>
+        </div>
+        <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon " style="background-color: #33495E;"><i class="fas fa-wheelchair text-white"></i></div>
+          <h4 class="title"><a>
+            Improved Patient Satisfaction</a></h4>
+        </div>
+        <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
+          <div class="icon " style="background-color: #33495E;"><i class="fas fa-notes-medical text-white"></i></div>
+          <h4 class="title"><a >Secured
+            Patient Data</a></h4>
+         </div>
+        <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
+          <div class="icon " style="background-color: #33495E;"><img src="https://img.icons8.com/ios-glyphs/50/ffffff/autism.png"/></div>
+          <h4 class="title"><a >Billing
+            Compliance</a></h4>
+        </div>
+        <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
+          <div class="icon " style="background-color: #33495E;"><img src="https://img.icons8.com/ios-glyphs/50/ffffff/bullish.png"/></div>
+          <h4 class="title"><a >
+            Process Claims Faster</a></h4>
+        </div>
+        <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
+          <div class="icon " style="background-color: #33495E;"><img src="https://img.icons8.com/ios-glyphs/50/ffffff/assignment-turned-in.png"/></div>
+          <h4 class="title"><a >
+            Audit & Analysis</a></h4>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Services Section -->
+  <!-- ======= Testimonials Section ======= -->
+  <section id="testimonials" class="testimonials">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2 style="color: #33495E;">Success Stories</h2>
+        <p>
+          Why PracticeCare MBS is The Best Medical Billing Company.</p>
+      </div>
+
+      <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+             
+Dr. Abo-Auda
+S. Abo-Auda
+“Patient and Flexible”
+I would say the one thing that stands out about my experience with PracticeCare MBS is the patience and flexibility of the account management and billing team. Whenever needed, they were willing to train me, and occasionally re-train me, on different aspects of the billing services.  </p>
+              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+              <h3>Andrea Mory</h3>
+              <h4>
+                Practice Administrator, Professional Counselor</h4>
+        
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                “They get the job done”
+                I have been quite pleased with PracticeCare MBS compared to other medical billing and coding companies, Claims are filed in a timely manner and follow-ups are very prompt. Account Management is very helpful and easy to talk to. Any difficulty I come across, it gets resolved immediately.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+              <h3>Dakhsha Patel</h3>
+              <h4>M.D, Psychiatrist</h4>
+             
+           </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </div>
+  </section><!-- End Testimonials Section -->
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts"style="background-image: url(assets/img/doctors/c.jpg);">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-1 col-md-6 ">
+            
+          </div>
+          <div class="col-lg-2 col-md-6 d-md-flex align-items-md-stretch" >
+            <div class="count-box"style="background-color: #c2c2c2; ">
+              <i class="fas fa-user-md" style="color: #33495E;"></i>
+              <span data-purecounter-start="0"   style="color: #33495E;" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
+
+              <p><strong>Years of Experience</strong></p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 d-md-flex align-items-md-stretch" >
+            <div class="count-box"style="background-color: #c2c2c2;">
+              <i class="far fa-hospital"  style="color: #33495E;"></i>
+              <span data-purecounter-start="0" style="color: #33495E;" data-purecounter-end="98" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong> Clean Claims Rate</strong></p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-md-flex align-items-md-stretch ">
+            <div class="count-box"style="background-color: #c2c2c2;">
+              <i class="fas fa-award" style="color: #33495E;"></i>
+              <span data-purecounter-start="0"  style="color: #33495E;"data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>States Served</strong></p>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box"style="background-color: #c2c2c2;">
+              <i class="fas fa-user-md" style="color: #33495E;"></i>
+              <span data-purecounter-start="0"   style="color: #33495E;" data-purecounter-end="23" data-purecounter-duration="1" class="purecounter">+</span>
+
+              <p><strong>Happy doctors</strong></p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box"style="background-color: #c2c2c2;">
+              <i class="fas fa-user" style="color: #33495E;"></i>
+              <span data-purecounter-start="0"   style="color: #33495E;" data-purecounter-end="11" data-purecounter-duration="1" class="purecounter"></span>
+
+              <p><strong> specialities</strong></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+  
+
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2 style="color: #33495E;">Testimonials</h2>
+         </div>
+
+        <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p style="font-size: large;">
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  They are knowledgeable and resourceful in responding to my needs. I am very grateful that I can turn to them for support whenever it is needed. <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+              <h3>Jacqueline Hirk</h3>
+              <h4>INC</h4>
+              <h4>Marriage and family therapy</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p style="font-size: large;">
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Working with PracticeCare has been an absolute pleasure. They are the only company that I trust to handle my medical billing.  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Netsanet Tegegn</h3>
+                <h4> LCSW</h4>
+                <h4> Restorative Psychotherapy & Wellness</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+
+  </main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer" style="background-color: #33495E;">
+  <div class="footer-top" >
+    <div class="container">
+        <!-- ======= Gallery Section ======= -->
+  <section id="gallery" class="gallery">
+    <div class="container" data-aos="fade-up">
+
+      <div class="gallery-slider swiper-container">
+        <h3>Experience with</h3>
+        <div class="swiper-wrapper align-items-center">
+          <div class="swiper-slide"><img src="assets/img/gallery/b.jpg" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/gallery/a.jpg" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/gallery/2.svg" class="img-fluid" alt=""></div>
+        
+        
+          <div class="swiper-slide"><img src="assets/img/gallery/3.svg" class="img-fluid" alt=""></div>
+        
+          <div class="swiper-slide"><img src="assets/img/gallery/4.svg" class="img-fluid" alt=""></div>
+        
+          <div class="swiper-slide"><img src="assets/img/gallery/5.svg" class="img-fluid" alt=""></div>
+        
+          <div class="swiper-slide"><img src="assets/img/gallery/6.svg" class="img-fluid" alt=""></div>
+        
+          <div class="swiper-slide"><img src="assets/img/gallery/7.svg" class="img-fluid" alt=""></div>
+        
+          <div class="swiper-slide"><img src="assets/img/gallery/9.svg" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/gallery/8.svg" class="img-fluid" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </div>
+  </section><!-- End Gallery Section -->
+      <div class="row">
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>PracticeCare MBS</h3>
+              <p>
+                
+                <strong>Address:</strong style="">  Unit # 527,1070 Montgomery Road, Altamonte Spring, FL 32714<br>
+                  <br>
+                <strong>Phone:</strong> +1(732) 704-6149<br>
+                <strong>Email:</strong> sales@practicecarembs.com<br>
+                
+  
+              </p>
+              <div class="social-links mt-3" >
+                <a href="#" class="twitter" style="background-color: #33495E;"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"style="background-color: #33495E;"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"style="background-color: #33495E;"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="linkedin"style="background-color: #33495E;"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+  
+  
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="frontDeskManagement.html">Front Office Management</a></li>
+                <li><a href="Credentialing.html">Credentialing & Enrollment</a></li>
+                <li><a href="VerificationEligibility.html">Verification & Eligibility</a></li>
+                <li><a href="MedicalCoding.html">Medical Coding</a></li>
+                <li><a href="Accountreceivable.html">Account receivable</a></li>
+                <li><a href="medicalBiling.html">Medical Billing</a></li>
+                <li><a href="transcription.html">Transcription</a></li>
+                <li><a href="valueServices.html">Value Added Services</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>About US</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="mainservices.html">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="pricing.html">Pricing Table</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+  
+        
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Hours</h4>
+            
+            <div><span class="float-left">Monday-Thursday:  </span> <span class="  float-right"> 8:00AM-5:00PM</span></div>
+            
+            <div><span class="float-left">Friday:</span> <span class="float-right" style="margin-left: 79px;"> 8:30AM-4:30PM</span></div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="container text-white">
+      <div class="copyright">
+        &copy; Copyright <strong><span>PracticeCare MBS</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed & Developed by <strong class="text-white">ASK</strong>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+  
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center" style="background-color: #546473;"><i class="bi bi-arrow-up-short"></i></a>
+  
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  
+  </body>
+  
+  </html>
